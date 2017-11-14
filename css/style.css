@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "braille";
+    src: url("/fonts/braille-webfont.woff2") format("woff2"), url("/fonts/braille-webfont.woff") format("woff"), url("/fonts/braille.ttf") format("truetype");
+}
+
+body {
+    background-color: white;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.heading {
+    font-size: 5em;
+    font-stretch: expanded;
+}
+
+.text-entry {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 2.5em;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 15%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+#result {
+    font-family: "braille", sans-serif;
+    font-size: 10em;
+    word-wrap: break-word;
+}

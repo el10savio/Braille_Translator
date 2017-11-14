@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Braille Translator</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="heading text-center"><b>Braille Translator</b></h1>
+    <div class="text-center">
+        <a id="result"></a>
+    </div>
+    <input id="entry" class="text-entry" type="text" oninput="replace()" placeholder="Type Text Here">
+
+    <script>
+        var entry = document.getElementById('entry');
+
+        function replace() {
+            document.getElementById('result').innerHTML = entry.value.toLowerCase();
+        }
+    </script>
+</body>
+
+</html>
