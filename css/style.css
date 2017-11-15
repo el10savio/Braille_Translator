@@ -1,6 +1,6 @@
 @font-face {
     font-family: "braille";
-    src: url("/fonts/braille-webfont.woff2") format("woff2"), url("/fonts/braille-webfont.woff") format("woff"), url("/fonts/braille.ttf") format("truetype");
+    src: url("../fonts/braille-webfont.woff2") format("woff2"), url("../fonts/braille-webfont.woff") format("woff"), url("../fonts/braille.ttf") format("truetype");
 }
 
 body {
