@@ -32,6 +32,6 @@ body {
 #result {
     font-family: "braille", sans-serif;
     font-size: 10em;
-    text-shadow: -2px 2px 3px #ff2d95;
+    text-shadow: -2px 2px 3px #0a0a0a;
     word-wrap: break-word;
 }
